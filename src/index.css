@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,600&display=swap');
 
 *{
-  background-color: #FFEEDD;
+  background-color: #fff2e6;
 
     margin: 0;
     font-family: 'Josefin Slab', serif;
@@ -11,7 +11,7 @@
     background-color:#FFD8BE;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    padding: 25px;
+    padding: 20px;
     display: flex;
     align-items: center;
     max-width: 100%;
@@ -50,4 +50,27 @@
   #nav-button{
     background-color: #cfad97;
     border-radius: 5px;
+  }
+
+  .blog-preview{
+    padding: 10px 16px;
+    margin: 20px 0;
+  }
+
+  .blog-preview:hover {
+    box-shadow: 3px 3px 6px #9e044c;
+    border-radius: 8px;
+  }
+
+  .home h1{
+    background-color:#c5c5c59a;
+  }
+
+  .home h3{
+    background-color:#c5c5c556;
+  }
+
+  .home p{
+    background-color:#c5c5c556;
+    
   }
