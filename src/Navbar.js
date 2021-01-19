@@ -3,7 +3,7 @@ const Navbar = () => {
         <nav className="navbar">
         <h1>AIR FRYER RECIPES BLOG</h1>
         <a href='/'>Home</a>
-        <a href='/create'>New Article</a>
+        <a href='/create' id="nav-button">New Article</a>
         </nav>
      );
 }

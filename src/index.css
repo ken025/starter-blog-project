@@ -32,15 +32,22 @@
     color: #13315C;
     background-color:#FFD8BE;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 16px;
     text-decoration: none;
     padding: 6px;
   }
   .navbar a:hover {
-    color: #6e0034;
+    color: #9e044c;
   }
   .content {
-    max-width: 600px;
+    max-width: 90%;
     margin: 40px auto;
     padding: 20px;
+    border:8px solid #738290;
+    border-radius: 20px;
+  }
+
+  #nav-button{
+    background-color: #cfad97;
+    border-radius: 5px;
   }
