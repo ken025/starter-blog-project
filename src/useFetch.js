@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 
 const useFetch = (url) => {
@@ -24,6 +23,9 @@ const useFetch = (url) => {
         setIsPending(false);
         setError(err.message);
       })
+
+      return () => {
+      }
   }, [url])
 
   return { data, isPending, error };

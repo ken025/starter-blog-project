@@ -1,17 +1,25 @@
-import logo from './logo.svg';
-
 import Home from './Home'
 import Navbar from './Navbar'
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Create from './Create';
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <Navbar/>
       <div className="content">
-      <Home/>
+      <Switch>
+        <Route exact path='/'> <Home/> </Route>
+        <Route path='/create'> <Create/> </Route>
+      </Switch>
       </div>
     </div>
+    </Router>
   );
 }
 
 export default App;
+
+
+// run our db = npx json-server --watch data/db.json --port 8000
